@@ -26,10 +26,10 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 
-// define('A7_PLUGIN_URL', plugin_dir_url( __FILE__ ));
+define('A7_PLUGIN_URL', plugin_dir_url( __FILE__ ));
 
 // for development - need to change for go live
-define('A7_PLUGIN_URL', '/wp-content/plugins/a7-simple-events');
+//define('A7_PLUGIN_URL', '/wp-content/plugins/a7-simple-events');
 /*------------------------------------*\
 	Register Event Post Type
 \*------------------------------------*/
